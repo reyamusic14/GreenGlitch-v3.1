@@ -137,9 +137,6 @@ export default function GreenGitch() {
   const handleDownload = async (imageUrl: string) => {
     try {
       const response = await fetch(imageUrl)
-      const blob = await response.blob()  => {
-    try {
-      const response = await fetch(imageUrl)
       const blob = await response.blob()
       const url = window.URL.createObjectURL(blob)
       const a = document.createElement("a")
