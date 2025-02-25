@@ -207,7 +207,7 @@ export default function GreenGitch() {
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-green-100 p-4">
       <Card className="max-w-md mx-auto bg-white/80 backdrop-blur">
         <CardContent className="p-6 space-y-6">
-          <h1 className="text-2xl font-bold text-center text-green-800 mb-6">GreenGlitch</h1>
+         <h1 className="text-2xl font-bold text-center text-green-800 mb-6">GreenGlitch</h1>
 
           <div className="space-y-4">
             <Select
@@ -247,11 +247,11 @@ export default function GreenGitch() {
 
             <div className="grid grid-cols-1 gap-2">
               <Button
-                className="w-full bg-green-600 hover:bg-green-700"
-                onClick={handleGenerateImages}
-                disabled={!selectedCity || !selectedIssue || isLoading}
+                  className="w-full bg-green-600 hover:bg-green-700 text-white"
+                  onClick={handleGenerateImages}
+                  disabled={!selectedCity || !selectedIssue || isLoading}
               >
-                {isLoading ? "Generating..." : "Generate Awareness Image"}
+                  {isLoading ? "Generating..." : "Generate Awareness Image"}
               </Button>
             </div>
           </div>
