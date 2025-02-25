@@ -1,20 +1,3 @@
-/* Force Tailwind to process these classes */
-.text-green-800 {
-  color: #166534;
-}
-.bg-green-600 {
-  background-color: #16a34a;
-}
-.hover\:bg-green-700:hover {
-  background-color: #15803d;
-}
-.from-green-50 {
-  --tw-gradient-from: #f0fdf4;
-}
-.to-green-100 {
-  --tw-gradient-to: #dcfce7;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
